@@ -12,6 +12,7 @@ printf "\n${WHITE}==============================================================
 SETTING UP YOUR COMPUTER!
 ==============================================================================${NORMAL}\n"
 
+eval "sh scripts/install.sh"
 eval "sh scripts/fonts.sh"
 eval "sh scripts/vscode.sh"
 
