@@ -10,6 +10,8 @@ NORMAL="\033[0;39m"
 
 # Install fonts
 printf "${GREEN}Installing fonts...${NORMAL}\n\n"
-eval "git clone https://github.com/abertsch/Menlo-for-Powerline.git menlo"
-eval "sudo mv ./menlo/*.ttf /usr/share/fonts"
-eval "rm -rf ./menlo"
+eval "mkdir 'Menlo for Powerline'"
+eval "curl -#L https://github.com/abertsch/Menlo-for-Powerline/tarball/master | tar -xzv --strip-components 1 --exclude={README.md} -C 'Menlo for Powerline'"
+eval "sudo mv ./'Menlo for Powerline' /usr/share/fonts/"
+eval "fc-cache -vf  /usr/share/fonts/"
+eval "rm -rf ./'Menlo for Powerline'"
