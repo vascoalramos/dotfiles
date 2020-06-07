@@ -16,10 +16,9 @@ eval "cp ./vscode/settings.json ~/.config/Code/User/settings.json"
 printf "${BLUE}Installing VS Code extensions...${NORMAL}\n"
 
 if test $(which code); then
-  filename="./vscode/extensions.txt"
-  while read -r line;
-  do
-    printf "${YELLOW}Installing VS Code extension ${line}...${NORMAL}\n"
-    eval "code --install-extension $line > /dev/null"
-  done < "$filename"
+    filename="./vscode/extensions.txt"
+    while read -r line; do
+        printf "${YELLOW}Installing VS Code extension ${line}...${NORMAL}\n"
+        eval "code --install-extension $line > /dev/null"
+    done <"$filename"
 fi

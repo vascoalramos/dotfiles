@@ -19,5 +19,6 @@ printf "\n${WHITE}==============================================================
 ${GREEN}All set!
 ${WHITE}Make sure to follow the instructions on GitHub to generate a new SSH key and then add the key to your GitHub account.
 ==============================================================================${NORMAL}\n"
+
 eval "xdg-open https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key > /dev/null"
 eval "xdg-open https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account > /dev/null"

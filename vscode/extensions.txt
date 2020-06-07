@@ -1,5 +1,6 @@
 dbaeumer.vscode-eslint
 esbenp.prettier-vscode
+foxundermoon.shell-format
 GabrielBB.vscode-lombok
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
