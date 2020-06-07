@@ -1,6 +1,4 @@
-# dotfiles
-
-Scripts to simplify setting up new machines
+# My dotfiles
 
 ## Installation
 
@@ -29,6 +27,14 @@ curl -#L https://github.com/vascoalramos/dotfiles/tarball/master | tar -xzv --st
 ```
 
 To update later on, just run that command again.
+
+## Feedback
+
+Suggestions/ improvements [welcome](https://github.com/vascoalramos/dotfiles/issues)!
+
+## Author
+
+-   **Vasco Ramos:** [vascoalramos](https://github.com/vascoalramos)
 
 ## Acknowledgments
 
