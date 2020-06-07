@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# exit when any command fails
+set -e
+
 RED="\033[31m"
 GREEN="\033[32m"
 YELLOW="\033[33m"
@@ -11,7 +14,7 @@ NORMAL="\033[0;39m"
 printf "${BLUE}Installing basic tools and software...${NORMAL}\n\n"
 
 # Update package repos
-eval "sudo apt update"
+eval "sudo apt updat"
 
 # Install basic tools
 eval "sudo apt install vim git tree python python3 default-jre default-jdk wget curl snapd python-pip python3-pip"
@@ -21,7 +24,7 @@ eval "sudo apt-get purge docker lxc-docker docker-engine docker.io"
 eval "sudo apt-get install apt-transport-https ca-certificates gnupg-agent software-properties-common"
 eval "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -"
 eval "sudo add-apt-repository 'deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable'"
-eval "sudo apt-get install docker-ce docker-ce-cli containerd.io"
+eval "sudo apt install docker-ce docker-ce-cli containerd.io"
 eval "sudo groupadd docker && sudo usermod -aG docker $USER"
 
 # Install docker-compose
@@ -36,6 +39,17 @@ eval "git clone https://github.com/zsh-users/zsh-syntax-highlighting $zsh_custom
 eval "cp ./zsh/aliases.sh $zsh_custom"
 eval "cp ./zsh/.zshrc ~/.zshrc && source ~/.zshrc"
 
+# Install brave browser
+eval "curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -"
+eval "echo 'deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main' | sudo tee /etc/apt/sources.list.d/brave-browser-release.list"
+eval "sudo apt update && sudo apt install brave-browser"
+
+# Install chromium browser
+eval "sudo apt install -y chromium-browser"
+
+# Install firefox browser
+eval "sudo apt install firefox"
+
 # Install snap applicactions
 eval "sudo snap install code --classic"
 eval "sudo snap install intellij-idea-ultimate --classic"
@@ -44,3 +58,6 @@ eval "sudo snap install pycharm-professional --classic"
 eval "sudo snap install slack --classic"
 eval "sudo snap install spotify"
 eval "sudo snap install vlc"
+
+# Final update and clean of complete system
+eval "sudo apt upgrade && sudo apt autoremove"
