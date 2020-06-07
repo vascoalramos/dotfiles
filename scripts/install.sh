@@ -4,7 +4,7 @@
 eval "sudo apt update"
 
 # Install basic tools
-eval "sudo apt install vim git tree python python3 default-jre default-jdk wget curl python-pip python3-pip fonts-powerline"
+eval "sudo apt install vim git tree python python3 default-jre default-jdk wget curl python-pip python3-pip"
 
 # Install docker
 eval "sudo apt-get purge docker lxc-docker docker-engine docker.io"
