@@ -30,9 +30,9 @@ curl -#L https://github.com/vascoalramos/dotfiles/tarball/master | tar -xzv --st
 
 To update later on, just run that command again.
 
-## Useful Repositories
+## Acknowledgments
 
--   Joao Marques: [machine-setup](https://github.com/joao-p-marques/machine-setup)
--   Brittany Chiang: [dotfiles](https://github.com/bchiang7/dotfiles)
--   Zell Liew: [dotfiles](https://github.com/zellwk/dotfiles)
--   Mathias Bynens: [dotfiles](https://github.com/mathiasbynens/dotfiles)
+-   [Mathias Bynens](https://mathiasbynens.be/) and his [dotfiles](https://github.com/mathiasbynens/dotfiles) repository
+-   [Zell Liew](https://zellwk.com/) and his [dotfiles](https://github.com/zellwk/dotfiles) repository
+-   [Brittany Chiang](https://brittanychiang.com/) and her [dotfiles](https://github.com/bchiang7/dotfiles) repository
+-   [João Marques](https://jmarques.icu/) and his [machine-setup](https://github.com/joao-p-marques/machine-setup) repository
