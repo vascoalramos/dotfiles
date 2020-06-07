@@ -1,0 +1,12 @@
+[user]
+name = Vasco Ramos
+email = vascoalramos@outlook.pt
+username = vascoalramos
+# signingkey = EA306BB24162D3FB
+[core]
+editor = vim
+[color]
+ui = true
+# Change this when user.signingkey exists
+# [commit]
+# gpgsign = true
