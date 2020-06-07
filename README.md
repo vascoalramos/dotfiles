@@ -32,7 +32,7 @@ To update later on, just run that command again.
 
 ## Feedback
 
-Suggestions/ improvements [welcome](https://github.com/vascoalramos/dotfiles/issues)!
+Suggestions and/or improvements [welcome](https://github.com/vascoalramos/dotfiles/issues)!
 
 ## Author
 
