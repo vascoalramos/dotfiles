@@ -25,7 +25,7 @@ git pull origin master && sh setup.sh
 To install these dotfiles without Git:
 
 ```bash
-curl -#L https://github.com/vascoalramos/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={LICENSE} && sh.setup.sh
+curl -#L https://github.com/vascoalramos/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={LICENSE} && sh setup.sh
 ```
 
 To update later on, just run that command again.
