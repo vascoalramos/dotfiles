@@ -17,7 +17,7 @@ printf "${BLUE}Installing basic tools and software...${NORMAL}\n\n"
 eval "sudo apt updat"
 
 # Install basic tools
-eval "sudo apt install vim git tree python python3 default-jre default-jdk wget curl snapd python-pip python3-pip"
+eval "sudo apt install vim git tree python python3 default-jre default-jdk wget curl snapd python-pip python3-pip htop"
 
 # Install docker
 eval "sudo apt-get purge docker lxc-docker docker-engine docker.io"
