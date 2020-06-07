@@ -13,7 +13,7 @@ SETTING UP YOUR COMPUTER!
 ==============================================================================${NORMAL}\n"
 
 eval "sh scripts/fonts.sh"
-# eval "sh scripts/vscode.sh"
+eval "sh scripts/vscode.sh"
 
 # Follow the instructions on GitHub to generate a new SSH key and add it to your Github account.
 printf "\n${WHITE}==============================================================================
