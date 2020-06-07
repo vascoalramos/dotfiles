@@ -30,6 +30,63 @@ curl -#L https://github.com/vascoalramos/dotfiles/tarball/master | tar -xzv --st
 
 To update later on, just run that command again.
 
+## Tools & Software
+
+<details>
+<summary>Package Managers</summary>
+
+-   [Snap](https://snapcraft.io/)
+
+</details>
+
+<details>
+<summary>CLI Tools & Utilities</summary>
+
+-   [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+-   [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+-   [Spaceship Prompt for ZSH](https://github.com/denysdovhan/spaceship-prompt)
+-   [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+-   [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
+</details>
+
+<details>
+<summary>Browsers</summary>
+
+-   [Brave](https://brave.com/)
+-   [Chromium](https://www.chromium.org/Home/)
+-   [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+</details>
+
+<details>
+<summary>Development</summary>
+
+-   [Visual Studio Code](https://code.visualstudio.com/)
+-   [PyCharm](https://www.jetbrains.com/pycharm/)
+-   [IntelliJ](https://www.jetbrains.com/idea/)
+-   [Postman](https://www.getpostman.com/)
+-   [Docker](https://docs.docker.com/engine/install/ubuntu/)
+-   [Docker Compose](https://docs.docker.com/compose/install/#install-using-pip)
+
+</details>
+
+<details>
+<summary>Communication</summary>
+
+-   [Slack](https://slack.com/)
+-   [Mailspring](https://getmailspring.com/)
+
+</details>
+
+<details>
+<summary>Miscellaneous</summary>
+
+-   [Spotify](https://www.spotify.com/)
+-   [VLC](http://www.videolan.org/)
+
+</details>
+
 ## Feedback
 
 Suggestions and/or improvements [welcome](https://github.com/vascoalramos/dotfiles/issues)!
