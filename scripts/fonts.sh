@@ -13,9 +13,10 @@ NORMAL="\033[0;39m"
 
 # Install fonts
 printf "${GREEN}Installing fonts...${NORMAL}\n\n"
-eval "sudo apt update && sudo apt install fonts-powerline"
-eval "mkdir 'Menlo for Powerline'"
-eval "curl -#L https://github.com/abertsch/Menlo-for-Powerline/tarball/master | tar -xzv --strip-components 1 --exclude={README.md} -C 'Menlo for Powerline'"
-eval "sudo mv ./'Menlo for Powerline' /usr/share/fonts/"
-eval "fc-cache -vf  /usr/share/fonts/"
-eval "rm -rf ./'Menlo for Powerline'"
+
+sudo apt update && sudo apt install fonts-powerline
+mkdir "Menlo for Powerline"
+curl -#L https://github.com/abertsch/Menlo-for-Powerline/tarball/master | tar -xzv --strip-components 1 --exclude={README.md} -C "Menlo for Powerline"
+sudo mv ./"Menlo for Powerline" /usr/share/fonts/
+fc-cache -vf  /usr/share/fonts/
+rm -rf ./"Menlo for Powerline"
