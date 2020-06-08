@@ -36,6 +36,8 @@ To update later on, just run that command again.
 <summary>Package Managers</summary>
 
 -   [Snap](https://snapcraft.io/)
+-   [Pip](https://pypi.org/project/pip/)
+-   [Pipenv](https://pypi.org/project/pipenv/)
 
 </details>
 

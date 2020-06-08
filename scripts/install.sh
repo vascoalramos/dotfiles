@@ -39,6 +39,16 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting $zsh_custom/plugi
 cp ./zsh/aliases.sh $zsh_custom
 cp ./zsh/.zshrc ~/.zshrc && source ~/.zshrc
 
+# Install pipenv
+sudo pip install pipenv
+
+# Install maven
+sudo apt-get -y install maven
+
+# Install nodejs and npm
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 # Install brave browser
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
