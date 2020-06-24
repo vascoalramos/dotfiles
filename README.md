@@ -104,3 +104,4 @@ Suggestions and/or improvements [welcome](https://github.com/vascoalramos/dotfil
 -   [Zell Liew](https://zellwk.com/) and his [dotfiles](https://github.com/zellwk/dotfiles) repository
 -   [Brittany Chiang](https://brittanychiang.com/) and her [dotfiles](https://github.com/bchiang7/dotfiles) repository
 -   [João Marques](https://jmarques.icu/) and his [machine-setup](https://github.com/joao-p-marques/machine-setup) repository
+-   [Atlassian Dotfiles Tutorial](https://www.atlassian.com/git/tutorials/dotfiles)
