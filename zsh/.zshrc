@@ -5,7 +5,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="spaceship"
 
 # Set history timestamp in logs
 HIST_STAMPS="%d/%m/%Y %T"
@@ -14,3 +14,5 @@ HIST_STAMPS="%d/%m/%Y %T"
 plugins=(git docker docker-compose zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+
+export EDITOR='vim'
