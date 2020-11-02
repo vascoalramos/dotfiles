@@ -17,7 +17,7 @@ printf "${BLUE}Installing basic tools and software...${NORMAL}\n\n"
 sudo apt update
 
 # Install basic tools
-sudo apt install vim git tree python python3 default-jre default-jdk wget curl snapd python-pip python3-pip htop
+sudo apt install vim git tree python3 default-jre default-jdk wget curl snapd python3-pip htop
 
 # Install docker
 sudo apt-get purge docker lxc-docker docker-engine docker.io
