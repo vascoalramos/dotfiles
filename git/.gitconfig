@@ -10,7 +10,7 @@
 	ui = always
 [commit]
 	# gpgsign = true
-	template = ~/Projects/dotfiles/gittemplate
+	template = ~/Projects/dotfiles/git/commit_template
 [help]
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
