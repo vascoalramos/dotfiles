@@ -1,0 +1,19 @@
+[legacy]
+theme-variant='system'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
+background-color='rgb(24,35,44)'
+bold-color='rgb(91,205,123)'
+bold-color-same-as-fg=false
+bold-is-bright=false
+cursor-background-color='rgb(219,225,235)'
+cursor-foreground-color='rgb(103,129,158)'
+font='Menlo for Powerline Bold 14'
+foreground-color='rgb(225,224,233)'
+highlight-background-color='rgb(13,84,133)'
+highlight-foreground-color='rgb(234,241,253)'
+palette=['rgb(23,20,33)', 'rgb(241,74,74)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,102,139)', 'rgb(222,175,35)', 'rgb(44,110,205)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(40,169,179)', 'rgb(224,168,60)', 'rgb(149,172,216)', 'rgb(255,255,255)']
+use-theme-colors=false
+use-theme-transparency=true
+use-transparent-background=false
