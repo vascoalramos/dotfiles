@@ -1,12 +1,23 @@
 [user]
-name = Vasco Ramos
-email = vascoalramos@outlook.pt
-username = vascoalramos
-# signingkey = EA306BB24162D3FB
+	name = Vasco Ramos
+	email = vascoalramos@outlook.pt
+	username = vascoalramos
+	# if you have gpgsign = true
+	signingkey = <GPG_KEY>
 [core]
-editor = vim
+	editor = vim
 [color]
-ui = true
-# Change this when user.signingkey exists
-# [commit]
-# gpgsign = true
+	ui = always
+[commit]
+	# gpgsign = true
+	template = ~/Projects/dotfiles/gittemplate
+
+[help]
+	# Automatically correct and execute mistyped commands
+	autocorrect = 1
+[pull]
+	rebase = false
+[push]
+	default = simple
+[rerere]
+	enabled = true
