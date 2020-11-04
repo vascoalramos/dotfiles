@@ -14,17 +14,20 @@ NORMAL="\033[0;39m"
 printf "${BLUE}Installing basic tools and software...${NORMAL}\n\n"
 
 # Update package repos
-sudo apt update
+sudo apt-get update
 
 # Install basic tools
-sudo apt install vim git tree python3 default-jre default-jdk wget curl snapd python3-pip htop
+sudo apt-get install -y vim git tree python3 default-jre default-jdk wget curl snapd python3-pip htop
+
+# Install git-extras
+sudo apt-get install -y git-extras
 
 # Install docker
-sudo apt-get purge docker lxc-docker docker-engine docker.io
-sudo apt-get install apt-transport-https ca-certificates gnupg-agent software-properties-common
+sudo apt-get purge -y docker lxc-docker docker-engine docker.io
+sudo apt-get install -y apt-transport-https ca-certificates gnupg-agent software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt install docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 sudo groupadd docker && sudo usermod -aG docker $USER
 
 # Install docker-compose
@@ -43,17 +46,17 @@ cp ./zsh/.zshrc ~/.zshrc && source ~/.zshrc
 sudo pip install pipenv
 
 # Install maven
-sudo apt-get -y install maven
+sudo apt-get install -y maven
 
 # Install nodejs and npm
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # Install chromium browser
-sudo apt install -y chromium-browser
+sudo apt-get install -y chromium-browser
 
 # Install firefox browser
-sudo apt install firefox
+sudo apt-get install -y firefox
 
 # Install snap applicactions
 sudo snap install code --classic
@@ -65,4 +68,4 @@ sudo snap install spotify
 sudo snap install vlc
 
 # Final update and clean of complete system
-sudo apt upgrade && sudo apt autoremove
+sudo apt-get upgrade && sudo apt-get autoremove
