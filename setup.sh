@@ -16,11 +16,8 @@ SETTING UP YOUR COMPUTER!
 ==============================================================================${NORMAL}\n"
 
 bash scripts/install.sh
-bash scripts/fonts.sh
+bash scripts/theme.sh
 bash scripts/vscode.sh
-
-# Setup terminal colors
-dconf load /org/gnome/terminal/ <./gterminal_theme
 
 # Follow the instructions on GitHub to generate a new SSH key and add it to your Github account.
 printf "\n${WHITE}==============================================================================
