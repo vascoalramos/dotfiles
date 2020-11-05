@@ -21,7 +21,7 @@ sudo apt-get install -y vim tree python3 default-jre default-jdk wget curl snapd
 
 # Git setup
 sudo apt-get install -y git git-extras
-cp ../git/.gitconfig ~/.gitconfig
+cp ./git/.gitconfig ~/.gitconfig
 
 # Install docker
 sudo apt-get purge -y docker lxc-docker docker-engine docker.io
@@ -66,7 +66,6 @@ sudo snap install postman
 sudo snap install pycharm-professional --classic
 sudo snap install slack --classic
 sudo snap install spotify
-sudo snap install vlc
 
 # Final update and clean of complete system
 sudo apt-get upgrade && sudo apt-get autoremove

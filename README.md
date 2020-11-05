@@ -56,7 +56,6 @@ To update later on, just run that command again.
 <details>
 <summary>Browsers</summary>
 
--   [Brave](https://brave.com/)
 -   [Chromium](https://www.chromium.org/Home/)
 -   [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
@@ -78,7 +77,6 @@ To update later on, just run that command again.
 <summary>Communication</summary>
 
 -   [Slack](https://slack.com/)
--   [Mailspring](https://getmailspring.com/)
 
 </details>
 
@@ -86,7 +84,6 @@ To update later on, just run that command again.
 <summary>Miscellaneous</summary>
 
 -   [Spotify](https://www.spotify.com/)
--   [VLC](http://www.videolan.org/)
 
 </details>
 
