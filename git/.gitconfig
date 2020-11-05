@@ -2,23 +2,27 @@
 	name = Vasco Ramos
 	email = vascoalramos@outlook.pt
 	username = vascoalramos
-	# if you have gpgsign = true
-	signingkey = <GPG_KEY>
+	signingkey = EE45AB97075963A6
 [core]
-	editor = vim
+        editor = vim
 [color]
-	ui = always
+        ui = always
 [commit]
-	# gpgsign = true
-	template = ~/Projects/dotfiles/git/commit_template
+        gpgsign = true
+        template = ~/Projects/dotfiles/git/commit_template
 [help]
-	# Automatically correct and execute mistyped commands
-	autocorrect = 1
+        # Automatically correct and execute mistyped commands
+        autocorrect = 1
 [pull]
-	rebase = false
+        rebase = false
 [push]
-	default = simple
+        default = simple
 [rerere]
-	enabled = true
+        enabled = true
 [init]
-        defaultBranch = main
+	defaultBranch = main
+[alias]
+	st = status
+	ca = commit -a
+	aa = add *
+	ra = restore --staged *
