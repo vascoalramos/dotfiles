@@ -15,9 +15,12 @@ printf "\n${WHITE}==============================================================
 SETTING UP YOUR COMPUTER!
 ==============================================================================${NORMAL}\n"
 
-sh scripts/install.sh
-sh scripts/fonts.sh
-sh scripts/vscode.sh
+bash scripts/install.sh
+bash scripts/fonts.sh
+bash scripts/vscode.sh
+
+# Setup terminal colors
+dconf load /org/gnome/terminal/ <./gterminal_theme
 
 # Follow the instructions on GitHub to generate a new SSH key and add it to your Github account.
 printf "\n${WHITE}==============================================================================
@@ -28,5 +31,5 @@ ${WHITE}Make sure to follow the instructions on GitHub to:
 ==============================================================================${NORMAL}\n"
 
 xdg-open "https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key" >/dev/null
-xdg-open https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account >/dev/null
-xdg-open https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification >/dev/null
+xdg-open "https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account" >/dev/null
+xdg-open "https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification" >/dev/null
