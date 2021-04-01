@@ -10,6 +10,7 @@
 
 
 # Uncomment if it applies
+# Fixes: #Ticket-number
 # Co-authored-by: Jane Doe <email@example.com>
 # Signed-off-by: Jane Doe <email@example.com>
 # Reported-by: Jane Doe <email@example.com>
@@ -17,7 +18,6 @@
 # Acked-by: Jane Doe <email@example.com>
 # Reviewed-by: Jane Doe <email@example.com>
 # Thanks: Jane Doe <email@example.com>
-# Fixes: #Ticket-number
 
 # Bibliography:
 # https://chris.beams.io/posts/git-commit/
