@@ -2,9 +2,9 @@
 	name = Vasco Ramos
 	email = vascoalramos@outlook.pt
 	username = vascoalramos
-	signingkey = A7D463AE63120622
+	signingkey = 32D6C0EF716D7D28
 [core]
-        editor = vim
+        editor = nvim
 [color]
         ui = always
 [commit]
