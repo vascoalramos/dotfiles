@@ -17,7 +17,6 @@ SETTING UP YOUR COMPUTER!
 
 bash scripts/install.sh
 bash scripts/theme.sh
-bash scripts/vscode.sh
 
 # Follow the instructions on GitHub to generate a new SSH key and add it to your Github account.
 printf "\n${WHITE}==============================================================================
