@@ -11,7 +11,7 @@ const BRAVE_WORK = {
 module.exports = {
     defaultBrowser: BRAVE_PERSONAL,
     options: {
-        hideIcon: false,
+        hideIcon: true,
     },
     handlers: [
         {
