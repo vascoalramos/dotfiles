@@ -11,18 +11,19 @@ const BRAVE_WORK = {
 module.exports = {
     defaultBrowser: BRAVE_PERSONAL,
     options: {
-        hideIcon: true,
+        hideIcon: false,
     },
     handlers: [
         {
-            match: [/^https?:\/\/www\.notion\.so\/ydataai$/, /^https?:\/\/www\.notion\.so\/ydataai\/.*$/],
+            match: /^https?:\/\/www\.notion\.so\/ydataai\/.*$/,
             browser: "Notion",
         },
         {
             match: [
-                /^https?:\/\/github\.com\/ydataai$/,
-                /^https?:\/\/meet\.jit\.si$/,
-                /^https?:\/\/meet\.google\.com$/,
+                /^https?:\/\/github\.com\/ydataai.*$/,
+                /^https?:\/\/meet\.jit\.si\/.*$/,
+                /^https?:\/\/meet\.google\.com\/.*$/,
+                /^.*ydata.*$/,
             ],
             browser: BRAVE_WORK,
         },

@@ -6,16 +6,6 @@
 	<array/>
 	<key>AlternateMouseScroll</key>
 	<true/>
-	<key>AppleAntiAliasingThreshold</key>
-	<integer>1</integer>
-	<key>ApplePressAndHoldEnabled</key>
-	<false/>
-	<key>AppleScrollAnimationEnabled</key>
-	<integer>0</integer>
-	<key>AppleSmoothFixedFontsSizeThreshold</key>
-	<integer>1</integer>
-	<key>AppleWindowTabbingMode</key>
-	<string>manual</string>
 	<key>Command</key>
 	<string></string>
 	<key>Default Bookmark Guid</key>
@@ -914,6 +904,8 @@
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>
 	<integer>4</integer>
+	<key>TabViewType</key>
+	<integer>1</integer>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
