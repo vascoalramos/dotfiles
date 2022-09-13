@@ -23,6 +23,7 @@ module.exports = {
                 /^https?:\/\/github\.com\/ydataai.*$/,
                 /^https?:\/\/meet\.jit\.si\/.*$/,
                 /^https?:\/\/meet\.google\.com\/.*$/,
+                /^https?:\/\/calendar\.google\.com\/.*$/,
                 /^.*ydata.*$/,
             ],
             browser: BRAVE_WORK,
