@@ -26,3 +26,7 @@
 	ca = commit -a
 	aa = add *
 	ra = restore --staged *
+        whoami = ! git config --get user.name && git config --get user.email
+
+[includeIf "gitdir:~/Work/"]
+        path = ~/.gitconfig_work

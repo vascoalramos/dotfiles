@@ -29,6 +29,16 @@ module.exports = {
             browser: BRAVE_WORK,
         },
         {
+            // Open any link clicked in Slack & Notion in Brave Work
+            match: ({ opener }) => ["Slack"].includes(opener.name),
+            browser: BRAVE_WORK,
+        },
+        {
+            // Open any link clicked in Mail & Outlook in Google Chrome
+            match: ({ opener }) => ["notion.id"].includes(opener.bundleId),
+            browser: BRAVE_WORK,
+        },
+        {
             match: [/^https?:\/\/instagram\.com\/.*$/, /redd\.it\/.*$/],
             browser: "Safari",
         },
