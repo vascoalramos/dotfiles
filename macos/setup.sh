@@ -21,5 +21,8 @@ ln -s ~/dotfiles/macos/finicky/.finicky.js ~/.finicky.js
 ## Symlink .gitconfig
 ln -Fs ~/Projects/dotfiles/git/.gitconfig ~/.gitconfig
 
+## Symlink .digrc
+ln -Fs ~/Projects/dotfiles/macos/.digrc ~/.digrc
+
 ## Activate Oh My Zsh custom configuration
 source ~/.zshrc

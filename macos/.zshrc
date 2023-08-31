@@ -25,9 +25,6 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH"
 alias vim="nvim"
 alias tf="terraform"
 
-# Podman <-> Docker
-alias docker="podman"
-
 # Kubernetes
 alias kctx="kubectx"
 alias kns="kubens"
@@ -72,3 +69,9 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+## GNU tools
+# sed
+PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+# make
+PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
