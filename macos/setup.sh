@@ -16,13 +16,20 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ln -Fs ~/Projects/dotfiles/macos/.zshrc ~/.zshrc
 
 ## Symlink .finicky.js
-ln -s ~/dotfiles/macos/finicky/.finicky.js ~/.finicky.js
+ln -s ~/Projects/dotfiles/macos/.finicky.js ~/.finicky.js
 
 ## Symlink .gitconfig
 ln -Fs ~/Projects/dotfiles/git/.gitconfig ~/.gitconfig
+ln -Fs ~/Projects/dotfiles/git/.gitconfig_work ~/.gitconfig_work
 
 ## Symlink .digrc
 ln -Fs ~/Projects/dotfiles/macos/.digrc ~/.digrc
+
+## Symlink .terraformrc
+cp ~/Projects/dotfiles/macos/.terraformrc ~/.terraformrc
+
+## Symlink java
+sudo ln -sfn $HOMEBREW_PREFIX/opt/homebrew/opt/openjdk /Library/Java/JavaVirtualMachines
 
 ## Activate Oh My Zsh custom configuration
 source ~/.zshrc

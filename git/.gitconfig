@@ -2,7 +2,7 @@
 	name = Vasco Ramos
 	email = vascoalramos@outlook.pt
 	username = vascoalramos
-	signingkey = 32D6C0EF716D7D28
+	signingkey = 611DAF4EBF6F78F1
 [core]
         editor = nvim
 [color]
@@ -31,3 +31,8 @@
 
 [includeIf "gitdir:~/Work/"]
         path = ~/.gitconfig_work
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
