@@ -111,3 +111,6 @@ alias xp-flux="flux reconcile source git infrastructure && flux reconcile kustom
 # Homebrew
 export PATH="/opt/homebrew/sbin:$PATH"
 alias brew-upgrade="brew upgrade --greedy"
+
+# ASDF
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
